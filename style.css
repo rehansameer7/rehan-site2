@@ -49,6 +49,10 @@ a{
     transition: all 0.9s ease;
 }
 
+.fav_things li{
+    transition: all 0.1 ease;
+}
+
 .fav_things li:hover{
       text-shadow: 0 0 10px #ad5959, 0 0 20px #ad5959, 0 0 40px #ad5959;
       transform: scale(1.1);
@@ -83,4 +87,29 @@ a{
 
 .linksheading{
     text-decoration: underline whitesmoke solid;
+}
+
+.fav_things li {
+  position: relative;
+}
+
+.fav_things li::after {
+  content: attr(data-desc);
+  position: absolute;
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 6px;
+  white-space: nowrap;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.fav_things li:hover::after {
+  opacity: 1;
 }
