@@ -52,7 +52,7 @@ a{
 .fav_things li:hover{
       text-shadow: 0 0 10px #ad5959, 0 0 20px #ad5959, 0 0 40px #ad5959;
       transform: scale(1.1);
-      transform-origin: center;
+      transform-origin: left-center;
 }
 
 .images{
@@ -78,7 +78,7 @@ a{
 .goals h3:hover{ 
     text-shadow: 0 0 10px #ad5959, 0 0 20px #ad5959, 0 0 40px #ad5959; 
     transform: scale(1.1);
-    transform-origin: center;
+    transform-origin: left-center;
 }
 
 .linksheading{
