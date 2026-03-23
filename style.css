@@ -1,0 +1,73 @@
+body{
+    color: #EAEAEA;
+    background: linear-gradient(black, rgb(108, 6, 6));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h1 {
+  color: #c57796;
+  font-size: 70px;
+  transition: all 0.9s ease;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic; /* this is where it gets gorgeous */
+  font-weight: 800;
+}
+
+.introduction{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.quote{
+    transition: all 0.9s ease;
+}
+
+.quote:hover{
+    transform: translateY(-5px) scale(1.40) perspective(500px) rotateY(30deg) rotateX(30deg);
+    text-shadow: 2px 2px 20px rgba(99, 102, 241, 0.7);
+}
+
+a{
+    text-decoration-line: none;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.fav_things{
+    border: 4px white solid;
+    border-radius: 15px;
+    padding: 3%;
+    transition: all 0.9s ease;
+}
+
+.fav_things li:hover{
+      text-shadow: 0 0 10px #ad5959, 0 0 20px #ad5959, 0 0 40px #ad5959;
+}
+
+.images{
+    padding: 5%;
+}
+
+.images img{
+    padding: 2%;
+    transition:  all 0.3s ease-out;
+}
+
+.images img:hover{
+    transform: scale(1.4);
+}
+
+.goals h3{
+    transition : all 0.3s ease;
+    font-family: sans-serif;
+    font-style: italic;
+    font
+}
+
+.goals h3:hover{ 
+    text-shadow: 0 0 10px #ad5959, 0 0 20px #ad5959, 0 0 40px #ad5959; 
+}
