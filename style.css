@@ -7,12 +7,17 @@ body{
 }
 
 h1 {
-  color: #c57796;
-  font-size: 70px;
+  color: #fff;
+  font-size: 80px;
   transition: all 0.9s ease;
   font-family: 'Cormorant Garamond', serif;
   font-style: italic; /* this is where it gets gorgeous */
   font-weight: 800;
+}
+
+h1:hover{
+    text-shadow: 2px 2px 20px rgba(99, 102, 241, 0.7);
+    font-weight: 1200;
 }
 
 .introduction{
@@ -70,4 +75,8 @@ a{
 
 .goals h3:hover{ 
     text-shadow: 0 0 10px #ad5959, 0 0 20px #ad5959, 0 0 40px #ad5959; 
+}
+
+.linksheading{
+    text-decoration: underline whitesmoke solid;
 }
